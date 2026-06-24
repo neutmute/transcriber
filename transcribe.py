@@ -5,7 +5,7 @@ Transcribe an audio file using OpenAI Whisper (local, free via pip).
 Usage:
     python transcribe.py <audio_file> [--ffmpeg <ffmpeg_path>] [--model <base|large-v3>] [--output <output_path>]
 
-    python transcribe.py "D:\Downloads\interview-2.m4a" --output D:\interview-2.txt --model base
+    python transcribe.py "D:\\Downloads\\interview-2.m4a" --output D:\\downloads\\interview-2.txt --model base
 
 Install dependencies:
     pip install openai-whisper
